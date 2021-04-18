@@ -3,7 +3,7 @@
 
 echo "Running"
 
-echo "${CONFIG}" >> /etc/ser2net.conf
+echo "${CONFIG}" > /etc/ser2net.conf
 
 
 exec "$@"
