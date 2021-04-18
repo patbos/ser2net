@@ -6,8 +6,6 @@ RUN apk --no-cache add ser2net bash
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 
-ADD ser2net.conf /etc/ser2net.conf
-
 EXPOSE 3000
 
 ENTRYPOINT ["/entrypoint.sh"]
