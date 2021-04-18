@@ -11,4 +11,4 @@ EXPOSE 3000
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["ser2net", "-d", "-c", "/etc/ser2net.conf"]
+CMD ["ser2net", "-n", "-c", "/etc/ser2net.conf"]
